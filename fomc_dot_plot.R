@@ -1,11 +1,11 @@
 library(tidyverse)
-setwd("H:")
+
 
 raw_data <-
-  readxl::read_xlsx("R/grid1_yw2kfuqk.xlsx")
+  readxl::read_xlsx("filepath")
 
 new_data <-
-  readxl::read_xlsx("R/new_data.xlsx")
+  readxl::read_xlsx("filepath")
 
 referenc_data <-
   raw_data %>% 
